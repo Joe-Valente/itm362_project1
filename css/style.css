@@ -51,12 +51,19 @@ header {
 header h1 {
   display: block;
   float: left;
-  background-color: rgba(3,23,78,1);
-  color: rgba(153,177,244,1);
+  background-color: var(--primary-4);
+  color: var(--primary-0);
   padding: 15px;
+  font-family: 'Righteous', cursive;
 }
 
 header #social_links {
-    display: block;
-    float: right;
+  display: block;
+  float: right;
+}
+
+header ul li {
+  display: inline-block;
+  list-style: none;
+
 }
