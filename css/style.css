@@ -20,7 +20,7 @@
   --secondary-2-3: rgba(0,176,0,1);
   --secondary-2-4: rgba(0,92,0,1);
 
-  --complement-0: rgba(255,148,150,1);      /* Main Complement color */
+  --complement-0: rgb(255, 204, 205);      /* Main Complement color */
   --complement-1: rgba(254,87,91,1);
   --complement-2: rgba(247,44,50,1);
   --complement-3: rgba(219,0,6,1);
@@ -48,7 +48,7 @@ body a, a:hover, a:visited, a:active {
 
 header {
   width: 100%;
-  height: 100%;
+  height: 600px;
   margin: 0 0;
   display: block;
 }
@@ -74,7 +74,7 @@ header ul li {
 }
 
 #inputs {
-  background: url(https://wallpaperset.com/w/full/3/f/4/185411.jpg) no-repeat center center fixed; 
+  background: url(https://wallpapercave.com/wp/wp3347535.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -84,10 +84,9 @@ header ul li {
 
 #input_wrapper {
   width: 100%;
-  height: 500px;
+  height: 600px;
   margin: 0 0;
   padding: 0;
-  display: block;
 }
 
 #input_wrapper form h1 {
@@ -108,8 +107,7 @@ form ul {
 
 form ul li {
     color: var(--secondary-1-0);
-    font-size: 175%;
-    font-weight: 200;
+    font-size: 200%;
     font-family: 'exo', sans-serif;
 }
 
@@ -121,12 +119,11 @@ form ul li {
   text-shadow: none;
 }
 
-#final_image_wrapper {
+#final_image {
     width: 100%;
-    height: 100%;
+    height: 600px;
     margin: 0 0;
     padding: 0;
-    display: block;
 }
 
 #final_image_wrapper {
@@ -141,5 +138,8 @@ form ul li {
   font-family: 'Exo', sans-serif;
   color: var(--complement-0);
   text-align: center;
-  font-size: 300%;
+  font-size: 200%;
+  margin: 0 0;
+  padding: 30px;
+  background-color: var(--complement-4);
 }
