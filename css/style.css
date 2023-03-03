@@ -143,3 +143,27 @@ form ul li {
   padding: 30px;
   background-color: var(--complement-4);
 }
+
+#final_picture_wrapper {
+  background: url(https://wallpapercave.com/dwp1x/wp3713497.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#final_picture_wrapper #final_picture {
+    width: 100%;
+    height: 600px;
+    margin: 0 0;
+    padding: 0;
+}
+
+#final_picture_wrapper #final_picture h1 {
+  color: var(--secondary-2-0);
+  font-family: 'Righteous', cursive;
+  font-size: 600%;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
