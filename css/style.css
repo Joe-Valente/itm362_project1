@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital@1&family=Righteous&display=swap');
 
 :root {
 
@@ -48,7 +48,7 @@ body a, a:hover, a:visited, a:active {
 
 header {
   width: 100%;
-  height: 300px;
+  height: 100%;
   margin: 0 0;
   display: block;
 }
@@ -84,10 +84,10 @@ header ul li {
 
 #input_wrapper {
   width: 100%;
-  height: 300px;
+  height: 500px;
   margin: 0 0;
-  display: block;
   padding: 0;
+  display: block;
 }
 
 #input_wrapper form h1 {
@@ -102,18 +102,44 @@ header ul li {
 
 form ul {
     list-style: none;
+    display: block;
+    float: left;
 }
 
 form ul li {
     color: var(--secondary-1-0);
-
+    font-size: 175%;
+    font-weight: 200;
+    font-family: 'exo', sans-serif;
 }
 
 #submit {
-    background: var(--secondary-1-4);
-	color: var(--secondary-1-1);
-	border: 1px solid var(--secondary-1-0);
-	border-radius: 20px;
-	box-shadow: 5px 5px 5px var(--secondary-1-0);
-	text-shadow: none;
+  background: var(--secondary-1-4);
+  color: var(--secondary-1-1);
+  border: 1px solid var(--secondary-1-0);
+  border-radius: 20px;
+  text-shadow: none;
+}
+
+#final_image_wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 0;
+    padding: 0;
+    display: block;
+}
+
+#final_image_wrapper {
+  background: url(https://wallpaperset.com/w/full/3/2/e/335975.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#final_image_wrapper #final_image p {
+  font-family: 'Exo', sans-serif;
+  color: var(--complement-0);
+  text-align: center;
+  font-size: 300%;
 }
