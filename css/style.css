@@ -254,4 +254,30 @@ body a, a:hover, a:visited, a:active {
     border-radius: 20px;
     text-shadow: none;
   }
+
+  #third_image {
+    width: 100%;
+    height: 1000px;
+    margin: 0 0;
+    padding: 0;
+}
+
+#third_image_wrapper {
+  background: url(https://wallpaperset.com/w/full/3/2/e/335975.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#third_image_wrapper #third_image p {
+  font-family: 'Exo', sans-serif;
+  color: var(--complement-0);
+  text-align: center;
+  font-size: 175%;
+  margin: 0 0;
+  padding: 20px;
+  background-color: var(--complement-4);
+}
+
 }
