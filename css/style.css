@@ -48,7 +48,7 @@ body a, a:hover, a:visited, a:active {
 
 header {
   width: 100%;
-  height: 500px;
+  height: 300px;
   margin: 0 0;
   display: block;
 }
@@ -70,15 +70,24 @@ header #social_links {
 header ul li {
   display: inline-block;
   list-style: none;
-  
+  color: var(--primary-4);
 }
 
-#input_wrapper {
-  background: url(https://wallpaperset.com/w/full/b/7/1/319231.jpg) no-repeat center center fixed; 
+#inputs {
+  background: url(https://wallpaperset.com/w/full/3/f/4/185411.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
+}
+
+#input_wrapper {
+  width: 100%;
+  height: 300px;
+  margin: 0 0;
+  display: block;
+  padding: 0;
 }
 
 #input_wrapper form h1 {
@@ -86,9 +95,25 @@ header ul li {
   background-color: var(--secondary-1-4);
   display: block;
   float: left;
+  font-family: 'Righteous', cursive;
   padding: 15px;
+  margin: 0;
 }
 
-#input_wrapper form ul {
+form ul {
     list-style: none;
+}
+
+form ul li {
+    color: var(--secondary-1-0);
+
+}
+
+#submit {
+    background: var(--secondary-1-4);
+	color: var(--secondary-1-1);
+	border: 1px solid var(--secondary-1-0);
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px var(--secondary-1-0);
+	text-shadow: none;
 }
