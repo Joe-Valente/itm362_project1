@@ -67,9 +67,12 @@ header ul li {
   list-style: none;
 }
 
-header #social_links ul li a p{
-    size: 300%;
-    text-size-adjust: 400%;
+#input_wrapper {
+  background: url(https://wallpaperset.com/w/full/b/7/1/319231.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #input_wrapper form ul {
