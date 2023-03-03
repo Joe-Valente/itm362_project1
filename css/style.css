@@ -247,6 +247,11 @@ body a, a:hover, a:visited, a:active {
     font-family: 'exo', sans-serif;
   }
 
+  form ul li input {
+    width: fit-content;
+    max-width: fit-content;
+  }
+
   #submit {
     background: var(--secondary-1-4);
     color: var(--secondary-1-1);
