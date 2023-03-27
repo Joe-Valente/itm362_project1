@@ -61,7 +61,7 @@ body a, a:hover, a:visited, a:active {
     background-color: var(--primary-4);
     color: var(--primary-0);
     padding: 15px;
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
     
   header #social_links {
@@ -96,7 +96,7 @@ body a, a:hover, a:visited, a:active {
     background-color: var(--secondary-1-4);
     display: block;
     float: left;
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 15px;
     margin: 0;
   }
@@ -110,7 +110,7 @@ body a, a:hover, a:visited, a:active {
   form ul li {
     color: var(--secondary-1-0);
     font-size: 200%;
-    font-family: 'exo', sans-serif;
+    font-family: 'exo', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
     
   #submit {
@@ -137,7 +137,7 @@ body a, a:hover, a:visited, a:active {
   }
     
   #third_image_wrapper #third_image p {
-    font-family: 'Exo', sans-serif;
+    font-family: 'Exo', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--complement-0);
     text-align: center;
     font-size: 200%;
@@ -163,7 +163,7 @@ body a, a:hover, a:visited, a:active {
     
   #final_picture_wrapper #final_picture h1 {
     color: var(--secondary-2-0);
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 600%;
     text-align: center;
     padding: 15px;
@@ -195,7 +195,7 @@ body a, a:hover, a:visited, a:active {
     background-color: var(--primary-4);
     color: var(--primary-0);
     padding: 15px;
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
   header #social_links {
@@ -230,7 +230,7 @@ body a, a:hover, a:visited, a:active {
     background-color: var(--secondary-1-4);
     display: block;
     float: left;
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 15px;
     margin: 0;
   }
@@ -244,7 +244,7 @@ body a, a:hover, a:visited, a:active {
   form ul li {
     color: var(--secondary-1-0);
     font-size: 175%;
-    font-family: 'exo', sans-serif;
+    font-family: 'exo', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
   form ul li input {
@@ -276,7 +276,7 @@ body a, a:hover, a:visited, a:active {
   }
 
   #third_image_wrapper #third_image p {
-    font-family: 'Exo', sans-serif;
+    font-family: 'Exo', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--complement-0);
     text-align: center;
     font-size: 175%;
@@ -301,7 +301,7 @@ body a, a:hover, a:visited, a:active {
     
   #final_picture_wrapper #final_picture h1 {
     color: var(--secondary-2-0);
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 535%;
     text-align: center;
     padding: 15px;
