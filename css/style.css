@@ -248,8 +248,8 @@ body a, a:hover, a:visited, a:active {
   }
 
   form ul li input {
-    width: fit-content;
-    max-width: fit-content;
+    width: 90%;
+    max-width: 90%;
   }
 
   #submit {
