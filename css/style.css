@@ -118,6 +118,12 @@ body a, a:hover, a:visited, a:active {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
+  form ul li input {
+    width: 95%;
+    max-width: 95%;
+    float: left;
+  }
     
   #submit {
     background: var(--secondary-1-4);
@@ -267,6 +273,7 @@ body a, a:hover, a:visited, a:active {
   form ul li input {
     width: 95%;
     max-width: 95%;
+    float: left;
   }
 
   #submit {
