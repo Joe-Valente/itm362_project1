@@ -111,6 +111,9 @@ body a, a:hover, a:visited, a:active {
     color: var(--secondary-1-0);
     font-size: 200%;
     font-family: 'exo', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
     
   #submit {
@@ -239,17 +242,19 @@ body a, a:hover, a:visited, a:active {
     list-style: none;
     display: block;
     float: left;
+    width: 100%;
   }
 
   form ul li {
     color: var(--secondary-1-0);
     font-size: 175%;
     font-family: 'exo', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
   }
 
   form ul li input {
-    width: 90%;
-    max-width: 90%;
+    width: 95%;
+    max-width: 95%;
   }
 
   #submit {
