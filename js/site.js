@@ -1,6 +1,7 @@
-
-const form = document.querySelector('form');
-form.addEventListener('submit', function(event) {
-  event.preventDefault();
-  alert('Thank you for joining the fight!');
+const form = document.getElementById('form');
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); 
+  const message = 'Thank you for joining the cause!';
+  alert(message);
+  form.reset();
 });
