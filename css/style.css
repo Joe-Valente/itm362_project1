@@ -46,6 +46,7 @@ body a, a:hover, a:visited, a:active {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 100%;
   }
     
   header {
@@ -82,6 +83,7 @@ body a, a:hover, a:visited, a:active {
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
+    width: 100%;
   }
     
   #input_wrapper {
@@ -137,6 +139,7 @@ body a, a:hover, a:visited, a:active {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 100%;
   }
     
   #third_image_wrapper #third_image p {
@@ -147,6 +150,7 @@ body a, a:hover, a:visited, a:active {
     margin: 0 0;
     padding: 30px;
     background-color: var(--complement-4);
+    width: 100%;
   }
     
   #final_picture_wrapper {
@@ -155,6 +159,7 @@ body a, a:hover, a:visited, a:active {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 100%;
   }
     
   #final_picture_wrapper #final_picture {
