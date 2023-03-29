@@ -1,7 +1,8 @@
-const form = document.getElementById('form');
-form.addEventListener('submit', (event) => {
-  event.preventDefault(); 
-  const message = 'Thank you for joining the cause!';
-  alert(message);
-  form.reset();
-});
+function buttonpressed() {
+  if(document.getElementById("mailing-list") == "yes") {
+    alert("Thank you for joining the cause! We hope you enjoy the mailing list :)");
+  }
+  else {
+    alert("Thank you for supporting the cause!");
+  }
+}
